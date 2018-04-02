@@ -1,14 +1,15 @@
 # Association Analysis
 
 ## How to execute the program Association.py
-## =========================================
 
 ## Dependencies:
-### Python 3.6.1
-### Pandas 0.20.1
-### Itertools
+<i>
+Python 3.6.1
+Pandas 0.20.1
+Itertools
+</i>
 
-Execution in command line: 
+#### Execution in command line: 
 
 ```bash
 python3 Association.py [filename] [support percent] [confidence percent]
@@ -16,16 +17,16 @@ python3 Association.py [filename] [support percent] [confidence percent]
 The program is tested with the included file <i>associationrulestestdata.txt</i>. 
 Please feel free to use this program with any other files, or modify it as per your own needs.
 
-Example:
+#### Example:
 
 ```bash
 python3 Association.py associationruletestdata.txt 50 70
 ```
 
-Querying:
+#### Querying:
 Type in query as per given format. Type "exit" to quit program.
 
-Query format examples:
+#### Query format examples:
 ```
 asso_rule.template1("RULE", "ANY", ['G59_Up'])
 asso_rule.template1("RULE", "NONE", ['G59_Up'])
@@ -47,6 +48,5 @@ asso_rule.template3("2or2", "BODY", 1, "HEAD", 2)
 asso_rule.template3("2and2", "BODY", 1, "HEAD", 2)
 ```
 
-
-Notes:
+#### Notes:
 "Up" and "Down" should be entered in sentence case and not in "UPPER" or "lower" case.
