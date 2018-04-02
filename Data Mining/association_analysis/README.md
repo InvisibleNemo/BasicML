@@ -2,7 +2,7 @@
 
 #### Dependencies:
 <i>
-<br>Python 3.6.1
+Python 3.6.1
 <br>Pandas 0.20.1
 <br>Itertools
 </i>
