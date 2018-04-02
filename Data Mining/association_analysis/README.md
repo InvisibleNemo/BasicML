@@ -1,12 +1,10 @@
 # Association Analysis
 
-## How to execute the program Association.py
-
-## Dependencies:
+#### Dependencies:
 <i>
-Python 3.6.1
-Pandas 0.20.1
-Itertools
+<br>Python 3.6.1
+<br>Pandas 0.20.1
+<br>Itertools
 </i>
 
 #### Execution in command line: 
